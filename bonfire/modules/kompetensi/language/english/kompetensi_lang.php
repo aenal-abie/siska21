@@ -1,0 +1,30 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['kompetensi_manage']			= 'Manage Kompetensi';
+$lang['kompetensi_edit']				= 'Edit';
+$lang['kompetensi_true']				= 'True';
+$lang['kompetensi_false']				= 'False';
+$lang['kompetensi_create']			= 'Create';
+$lang['kompetensi_list']				= 'List';
+$lang['kompetensi_new']				= 'New';
+$lang['kompetensi_edit_text']			= 'Edit this to suit your needs';
+$lang['kompetensi_no_records']			= 'There aren\'t any kompetensi in the system.';
+$lang['kompetensi_create_new']			= 'Create a new Kompetensi.';
+$lang['kompetensi_create_success']			= 'Kompetensi successfully created.';
+$lang['kompetensi_create_failure']			= 'There was a problem creating the kompetensi: ';
+$lang['kompetensi_create_new_button']			= 'Create New Kompetensi';
+$lang['kompetensi_invalid_id']			= 'Invalid Kompetensi ID.';
+$lang['kompetensi_edit_success']			= 'Kompetensi successfully saved.';
+$lang['kompetensi_edit_failure']			= 'There was a problem saving the kompetensi: ';
+$lang['kompetensi_delete_success']			= 'record(s) successfully deleted.';
+$lang['kompetensi_delete_failure']			= 'We could not delete the record: ';
+$lang['kompetensi_delete_error']			= 'You have not selected any records to delete.';
+$lang['kompetensi_actions']			= 'Actions';
+$lang['kompetensi_cancel']			= 'Cancel';
+$lang['kompetensi_delete_record']			= 'Delete this Kompetensi';
+$lang['kompetensi_delete_confirm']			= 'Are you sure you want to delete this kompetensi?';
+$lang['kompetensi_edit_heading']			= 'Edit Kompetensi';
+
+// Activities
+$lang['kompetensi_act_create_record']			= 'Created record with ID';
+$lang['kompetensi_act_edit_record']			= 'Updated record with ID';
+$lang['kompetensi_act_delete_record']			= 'Deleted record with ID';

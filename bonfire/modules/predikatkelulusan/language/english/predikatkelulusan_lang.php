@@ -1,0 +1,30 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['predikatkelulusan_manage']			= 'Manage PredikatKelulusan';
+$lang['predikatkelulusan_edit']				= 'Edit';
+$lang['predikatkelulusan_true']				= 'True';
+$lang['predikatkelulusan_false']				= 'False';
+$lang['predikatkelulusan_create']			= 'Create';
+$lang['predikatkelulusan_list']				= 'List';
+$lang['predikatkelulusan_new']				= 'New';
+$lang['predikatkelulusan_edit_text']			= 'Edit this to suit your needs';
+$lang['predikatkelulusan_no_records']			= 'There aren\'t any predikatkelulusan in the system.';
+$lang['predikatkelulusan_create_new']			= 'Create a new PredikatKelulusan.';
+$lang['predikatkelulusan_create_success']			= 'PredikatKelulusan successfully created.';
+$lang['predikatkelulusan_create_failure']			= 'There was a problem creating the predikatkelulusan: ';
+$lang['predikatkelulusan_create_new_button']			= 'Create New PredikatKelulusan';
+$lang['predikatkelulusan_invalid_id']			= 'Invalid PredikatKelulusan ID.';
+$lang['predikatkelulusan_edit_success']			= 'PredikatKelulusan successfully saved.';
+$lang['predikatkelulusan_edit_failure']			= 'There was a problem saving the predikatkelulusan: ';
+$lang['predikatkelulusan_delete_success']			= 'record(s) successfully deleted.';
+$lang['predikatkelulusan_delete_failure']			= 'We could not delete the record: ';
+$lang['predikatkelulusan_delete_error']			= 'You have not selected any records to delete.';
+$lang['predikatkelulusan_actions']			= 'Actions';
+$lang['predikatkelulusan_cancel']			= 'Cancel';
+$lang['predikatkelulusan_delete_record']			= 'Delete this PredikatKelulusan';
+$lang['predikatkelulusan_delete_confirm']			= 'Are you sure you want to delete this predikatkelulusan?';
+$lang['predikatkelulusan_edit_heading']			= 'Edit PredikatKelulusan';
+
+// Activities
+$lang['predikatkelulusan_act_create_record']			= 'Created record with ID';
+$lang['predikatkelulusan_act_edit_record']			= 'Updated record with ID';
+$lang['predikatkelulusan_act_delete_record']			= 'Deleted record with ID';
