@@ -1,0 +1,30 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['tes_lagi_manage']			= 'Manage Tes Lagi';
+$lang['tes_lagi_edit']				= 'Edit';
+$lang['tes_lagi_true']				= 'True';
+$lang['tes_lagi_false']				= 'False';
+$lang['tes_lagi_create']			= 'Create';
+$lang['tes_lagi_list']				= 'List';
+$lang['tes_lagi_new']				= 'New';
+$lang['tes_lagi_edit_text']			= 'Edit this to suit your needs';
+$lang['tes_lagi_no_records']			= 'There aren\'t any tes_lagi in the system.';
+$lang['tes_lagi_create_new']			= 'Create a new Tes Lagi.';
+$lang['tes_lagi_create_success']			= 'Tes Lagi successfully created.';
+$lang['tes_lagi_create_failure']			= 'There was a problem creating the tes_lagi: ';
+$lang['tes_lagi_create_new_button']			= 'Create New Tes Lagi';
+$lang['tes_lagi_invalid_id']			= 'Invalid Tes Lagi ID.';
+$lang['tes_lagi_edit_success']			= 'Tes Lagi successfully saved.';
+$lang['tes_lagi_edit_failure']			= 'There was a problem saving the tes_lagi: ';
+$lang['tes_lagi_delete_success']			= 'record(s) successfully deleted.';
+$lang['tes_lagi_delete_failure']			= 'We could not delete the record: ';
+$lang['tes_lagi_delete_error']			= 'You have not selected any records to delete.';
+$lang['tes_lagi_actions']			= 'Actions';
+$lang['tes_lagi_cancel']			= 'Cancel';
+$lang['tes_lagi_delete_record']			= 'Delete this Tes Lagi';
+$lang['tes_lagi_delete_confirm']			= 'Are you sure you want to delete this tes_lagi?';
+$lang['tes_lagi_edit_heading']			= 'Edit Tes Lagi';
+
+// Activities
+$lang['tes_lagi_act_create_record']			= 'Created record with ID';
+$lang['tes_lagi_act_edit_record']			= 'Updated record with ID';
+$lang['tes_lagi_act_delete_record']			= 'Deleted record with ID';
