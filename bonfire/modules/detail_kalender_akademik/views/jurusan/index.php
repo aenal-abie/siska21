@@ -7,8 +7,6 @@
 					<?php if ($this->auth->has_permission('Detail_Kalender_Akademik.Jurusan.Delete') && isset($records) && is_array($records) && count($records)) : ?>
 					<th class="column-check"><input class="check-all" type="checkbox" /></th>
 					<?php endif;?>
-					
-					<th>Kode Kalender Akademik</th>
 					<th>Deskripsi Detail Kalender Akademik</th>
 					<th>Tanggal Mulai</th>
 					<th>Tanggal Berakhir</th>
@@ -37,13 +35,12 @@
 					<?php endif;?>
 					
 				<?php if ($this->auth->has_permission('Detail_Kalender_Akademik.Jurusan.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/jurusan/detail_kalender_akademik/edit/'. $record->kode_detail_kalender_akademik, '<i class="icon-pencil"></i>'  ); echo "&nbsp;&nbsp;" . $record->kode_kalender_akademik .' - '. $record->deskripsi_kalender_akademik ?></td>
+				<td>
+                <?php echo anchor(SITE_AREA .'/jurusan/detail_kalender_akademik/edit/'. $record->kode_detail_kalender_akademik, '<i class="icon-pencil"></i>'  ); echo "&nbsp;&nbsp;" . $record->deskripsi_kalender_akademik ?></td>
 				<?php else: ?>
-				<td><?php echo $record->kode_kalender_akademik; ?>						
+				<td><?php echo $record->deskripsi_kalender_akademik; ?>						
 				</td>
 				<?php endif; ?>
-			
-				<td><?php echo $record->deskripsi_detail_kalender_akademik?></td>
 				<td><?php echo $record->tanggal_mulai?></td>
 				<td><?php echo $record->tanggal_berakhir?></td>
 				<td><?php echo $record->tanggal_add?></td>

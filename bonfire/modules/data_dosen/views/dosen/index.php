@@ -1,5 +1,4 @@
 <div class="admin-box">
-	<h3>Data Dosen</h3>
 	<?php echo form_open($this->uri->uri_string()); ?>
 		<table class="table table-striped">
 			<thead>

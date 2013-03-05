@@ -19,15 +19,8 @@ $id = isset($detail_kalender_akademik['kode_detail_kalender_akademik']) ? $detai
 
 
         <?php // Change the values in this array to populate your dropdown as required ?>
-        <?php echo form_dropdown('detail_kalender_akademik_kode_kalender_akademik', $options, set_value('detail_kalender_akademik_kode_kalender_akademik', isset($detail_kalender_akademik['kode_kalender_akademik']) ? $detail_kalender_akademik['kode_kalender_akademik'] : ''), 'Kode Kalender Akademik'. lang('bf_form_label_required'))?>        <div class="control-group <?php echo form_error('detail_kalender_akademik_deskripsi_detail_kalender_akademik') ? 'error' : ''; ?>">
-            <?php echo form_label('Deskripsi Detail Kalender Akademik'. lang('bf_form_label_required'), 'detail_kalender_akademik_deskripsi_detail_kalender_akademik', array('class' => "control-label") ); ?>
-            <div class='controls'>
-        <input id="detail_kalender_akademik_deskripsi_detail_kalender_akademik" type="text" name="detail_kalender_akademik_deskripsi_detail_kalender_akademik" maxlength="100" value="<?php echo set_value('detail_kalender_akademik_deskripsi_detail_kalender_akademik', isset($detail_kalender_akademik['deskripsi_detail_kalender_akademik']) ? $detail_kalender_akademik['deskripsi_detail_kalender_akademik'] : ''); ?>"  />
-        <span class="help-inline"><?php echo form_error('detail_kalender_akademik_deskripsi_detail_kalender_akademik'); ?></span>
-        </div>
+        <?php echo form_dropdown('detail_kalender_akademik_kode_kalender_akademik', $options, set_value('detail_kalender_akademik_kode_kalender_akademik', isset($detail_kalender_akademik['kode_kalender_akademik']) ? $detail_kalender_akademik['kode_kalender_akademik'] : ''), 'Kode Kalender Akademik'. lang('bf_form_label_required'))?>        
 
-
-        </div>
         <div class="control-group <?php echo form_error('detail_kalender_akademik_tanggal_mulai') ? 'error' : ''; ?>">
             <?php echo form_label('Tanggal Mulai'. lang('bf_form_label_required'), 'detail_kalender_akademik_tanggal_mulai', array('class' => "control-label") ); ?>
             <div class='controls'>

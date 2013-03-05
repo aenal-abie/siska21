@@ -15,13 +15,14 @@
 					<th>Status</th>
 					<th>Created</th>
 					<th>Modified</th>
+                    <th>#</th>                    
 				</tr>
 			</thead>
 			<?php if (isset($records) && is_array($records) && count($records)) : ?>
 			<tfoot>
 				<?php if ($this->auth->has_permission('Tahunakademik.Jurusan.Delete')) : ?>
 				<tr>
-					<td colspan="8">
+					<td colspan="9">
 						<?php echo lang('bf_with_selected') ?>
 						<input type="submit" name="delete" id="delete-me" class="btn btn-danger" value="<?php echo lang('bf_action_delete') ?>" onclick="return confirm('<?php echo lang('tahunakademik_delete_confirm'); ?>')">
 					</td>
@@ -49,6 +50,16 @@
 				<td><?php echo ($record->status==='A' ?"Aktif":"NonAktif")?></td>
 				<td><?php echo $record->tanggal_add?></td>
 				<td><?php echo $record->tanggal_edit?></td>
+                <td>
+                <div class="btn-group">
+                        <?php echo anchor(SITE_AREA .'/jurusan/detail_kalender_akademik/index/'.$record->kode_tahun_akademik,'<i class="icon-calendar"></i> Lihat Kalender Akademik',' class="btn small-box"'); ?>
+			          
+			          <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><?php echo anchor(SITE_AREA .'/jurusan/detail_kalender_akademik/create/'. $record->kode_tahun_akademik, '<i class="icon-calendar"></i> Tambah Kalender Akademik'  ); ?></li>
+			          </ul>
+			        </div>
+                </td>                
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>

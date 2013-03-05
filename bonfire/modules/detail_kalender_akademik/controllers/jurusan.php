@@ -8,8 +8,12 @@ class jurusan extends Admin_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+        if($this->uri->segment(5)=='') 
+        {
+            Template::redirect(SITE_AREA .'/jurusan/tahunakademik/index/'.$this->uri->segment(5));
+        }
 
-		$this->auth->restrict('Detail_Kalender_Akademik.Jurusan.View');
+		$this->auth->restrict('Detail_Kalender_Akademik.Jurusan.View_detail');
 		$this->load->model('detail_kalender_akademik_model', null, true);
 		$this->lang->load('detail_kalender_akademik');
 		
@@ -29,7 +33,6 @@ class jurusan extends Admin_Controller {
 	*/
 	public function index()
 	{
-
 		// Deleting anything?
 		if (isset($_POST['delete']))
 		{
@@ -54,8 +57,8 @@ class jurusan extends Admin_Controller {
 			}
 		}
 
-		$this->db->join('kalender_akademik', 'kalender_akademik.kode_kalender_akademik=detail_kalender_akademik.kode_kalender_akademik');
-		$records = $this->detail_kalender_akademik_model->select('kode_detail_kalender_akademik, detail_kalender_akademik.kode_kalender_akademik, kalender_akademik.deskripsi_kalender_akademik as deskripsi_kalender_akademik, deskripsi_detail_kalender_akademik, detail_kalender_akademik.tanggal_mulai, detail_kalender_akademik.tanggal_berakhir, detail_kalender_akademik.tanggal_add, detail_kalender_akademik.tanggal_edit')->find_all();
+		$kode_tahun_akademik = $this->uri->segment(5);
+        $records = $this->detail_kalender_akademik_model->get_detail_kalender_akademik($kode_tahun_akademik);
 
 		Template::set('records', $records);
 		Template::set('toolbar_title', 'Manage Detail Kalender Akademik');
@@ -76,7 +79,7 @@ class jurusan extends Admin_Controller {
 		$this->auth->restrict('Detail_Kalender_Akademik.Jurusan.Create');
 		
 		$options_kode_kalender_akademik = $this->detail_kalender_akademik_model->get_kalender_akademik()->result();
-		$options = array(''=>'....');
+		$options = array(''=>'');
 		
 		foreach($options_kode_kalender_akademik as $row)
 		{
@@ -94,7 +97,7 @@ class jurusan extends Admin_Controller {
 				$this->activity_model->log_activity($this->current_user->id, lang('detail_kalender_akademik_act_create_record').': ' . $insert_id . ' : ' . $this->input->ip_address(), 'detail_kalender_akademik');
 
 				Template::set_message(lang('detail_kalender_akademik_create_success'), 'success');
-				Template::redirect(SITE_AREA .'/jurusan/detail_kalender_akademik');
+				Template::redirect(SITE_AREA .'/jurusan/detail_kalender_akademik/index/'.$this->uri->segment(5));
 			}
 			else
 			{
@@ -205,7 +208,6 @@ class jurusan extends Admin_Controller {
 
 		
 		$this->form_validation->set_rules('detail_kalender_akademik_kode_kalender_akademik','Kode Kalender Akademik','required|max_length[2]');
-		$this->form_validation->set_rules('detail_kalender_akademik_deskripsi_detail_kalender_akademik','Deskripsi Detail Kalender Akademik','required|max_length[100]');
 		$this->form_validation->set_rules('detail_kalender_akademik_tanggal_mulai','Tanggal Mulai','required|max_length[100]');
 		$this->form_validation->set_rules('detail_kalender_akademik_tanggal_berakhir','Tanggal Berakhir','required|max_length[100]');
 
@@ -218,7 +220,7 @@ class jurusan extends Admin_Controller {
 		
 		$data = array();
 		$data['kode_kalender_akademik']        = $this->input->post('detail_kalender_akademik_kode_kalender_akademik');
-		$data['deskripsi_detail_kalender_akademik']        = $this->input->post('detail_kalender_akademik_deskripsi_detail_kalender_akademik');
+		$data['kode_tahun_akademik']        = $this->uri->segment(5);
 		$data['tanggal_mulai']        = $this->input->post('detail_kalender_akademik_tanggal_mulai') ? $this->input->post('detail_kalender_akademik_tanggal_mulai') : '0000-00-00';
 		$data['tanggal_berakhir']        = $this->input->post('detail_kalender_akademik_tanggal_berakhir') ? $this->input->post('detail_kalender_akademik_tanggal_berakhir') : '0000-00-00';
 
