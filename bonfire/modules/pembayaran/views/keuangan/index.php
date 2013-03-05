@@ -70,11 +70,25 @@
                 <td>
                 <?php 
                     $jenis = array('L'=>'Lunas', 'D'=>'Dispensasi','LD'=>'Lunas Dispensasi');
-                    $link_bayar_dispen = "<a title='Bayar Dispensasi'  style='margin-top:-3px;'  class='btn btn-small btn-warning' href='".base_url(SITE_AREA."/keuangan/pembayaran/pembayaran_dispensasi/$record->kode_pembayaran")."'><i class=\"icon-share\"></i> ".$jenis[$record->status_pembayaran]."</a>"; 
-                    echo ($record->status_pembayaran != 'D') ? $jenis[$record->status_pembayaran] 
-                           :$link_bayar_dispen; 
+                    $link_bayar_dispen = "<a title='Bayar Dispensasi' class=\"btn small-box\" style='margin-top:-3px;'  class='btn btn-small btn-warning' href='".base_url(SITE_AREA."/keuangan/pembayaran/pembayaran_dispensasi/$record->kode_pembayaran")."'><i class=\"icon-share\"></i> Bayar ".$jenis[$record->status_pembayaran]."</a>"; 
+                    //echo ($record->status_pembayaran != 'D') ? $jenis[$record->status_pembayaran] 
+                      //     :$link_bayar_dispen; 
+                      //if ($record->status_pembayaran != 'D') {
+                       
                 ?>
-                </td>
+                <div class="btn-group">
+                        
+                    <?php echo ($record->status_pembayaran != 'D') ? 
+                    "<a title='Bayar Dispensasi' class=\"btn small-box\" '  class='btn btn-small btn-warning' href='#'><i class=\"icon-list-alt\"></i>  ".$jenis[$record->status_pembayaran]."</a>":
+                    "<a title='Bayar Dispensasi' class=\"btn small-box\" '  class='btn btn-small btn-warning' href='".base_url(SITE_AREA."/keuangan/pembayaran/pembayaran_dispensasi/$record->kode_pembayaran")."'><i class=\"icon-share\"></i> Bayar ".$jenis[$record->status_pembayaran]."</a>";
+                    ?>
+			          <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><?php echo anchor(base_url(SITE_AREA."/keuangan/pembayaran/cetak_nota/$record->kode_pembayaran"),'<i class="icon-print"></i> Cetak Bukti Pembayaran','target="_blank"'); ?></li>
+			          </ul>
+			        </div><!-- /btn-group -->
+                    <?php //} else echo $link_bayar_dispen;  ?>
+                    </td>
 				</tr>
 			<?php endforeach; ?>
 			<?php else: ?>

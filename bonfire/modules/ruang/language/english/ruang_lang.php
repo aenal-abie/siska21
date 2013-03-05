@@ -1,0 +1,30 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['ruang_manage']			= 'Manage Ruang';
+$lang['ruang_edit']				= 'Edit';
+$lang['ruang_true']				= 'True';
+$lang['ruang_false']				= 'False';
+$lang['ruang_create']			= 'Create';
+$lang['ruang_list']				= 'List';
+$lang['ruang_new']				= 'New';
+$lang['ruang_edit_text']			= 'Edit this to suit your needs';
+$lang['ruang_no_records']			= 'There aren\'t any ruang in the system.';
+$lang['ruang_create_new']			= 'Create a new Ruang.';
+$lang['ruang_create_success']			= 'Ruang successfully created.';
+$lang['ruang_create_failure']			= 'There was a problem creating the ruang: ';
+$lang['ruang_create_new_button']			= 'Create New Ruang';
+$lang['ruang_invalid_id']			= 'Invalid Ruang ID.';
+$lang['ruang_edit_success']			= 'Ruang successfully saved.';
+$lang['ruang_edit_failure']			= 'There was a problem saving the ruang: ';
+$lang['ruang_delete_success']			= 'record(s) successfully deleted.';
+$lang['ruang_delete_failure']			= 'We could not delete the record: ';
+$lang['ruang_delete_error']			= 'You have not selected any records to delete.';
+$lang['ruang_actions']			= 'Actions';
+$lang['ruang_cancel']			= 'Cancel';
+$lang['ruang_delete_record']			= 'Delete this Ruang';
+$lang['ruang_delete_confirm']			= 'Are you sure you want to delete this ruang?';
+$lang['ruang_edit_heading']			= 'Edit Ruang';
+
+// Activities
+$lang['ruang_act_create_record']			= 'Created record with ID';
+$lang['ruang_act_edit_record']			= 'Updated record with ID';
+$lang['ruang_act_delete_record']			= 'Deleted record with ID';
