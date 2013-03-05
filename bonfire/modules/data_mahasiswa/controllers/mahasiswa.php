@@ -57,8 +57,8 @@ class mahasiswa extends Admin_Controller {
     // Pagination
 		$this->load->library('pagination');		
     $total = $this->data_mahasiswa_model->count_all();    
-    //$limit = $this->settings_lib->item('site.list_limit');        
-    $limit = 1;
+    $limit = $this->settings_lib->item('site.list_limit');        
+    //$limit = 1;
 		$offset=$this->input->get('per_page');     				    
    	$this->pager['base_url'] = current_url()."?";
 		$this->pager['total_rows'] = $total;
