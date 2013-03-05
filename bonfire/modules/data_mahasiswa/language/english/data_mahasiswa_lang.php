@@ -1,0 +1,30 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['data_mahasiswa_manage']			= 'Manage Data Mahasiswa';
+$lang['data_mahasiswa_edit']				= 'Edit';
+$lang['data_mahasiswa_true']				= 'True';
+$lang['data_mahasiswa_false']				= 'False';
+$lang['data_mahasiswa_create']			= 'Create';
+$lang['data_mahasiswa_list']				= 'List';
+$lang['data_mahasiswa_new']				= 'New';
+$lang['data_mahasiswa_edit_text']			= 'Edit this to suit your needs';
+$lang['data_mahasiswa_no_records']			= 'There aren\'t any data_mahasiswa in the system.';
+$lang['data_mahasiswa_create_new']			= 'Create a new Data Mahasiswa.';
+$lang['data_mahasiswa_create_success']			= 'Data Mahasiswa successfully created.';
+$lang['data_mahasiswa_create_failure']			= 'There was a problem creating the data_mahasiswa: ';
+$lang['data_mahasiswa_create_new_button']			= 'Create New Data Mahasiswa';
+$lang['data_mahasiswa_invalid_id']			= 'Invalid Data Mahasiswa ID.';
+$lang['data_mahasiswa_edit_success']			= 'Data Mahasiswa successfully saved.';
+$lang['data_mahasiswa_edit_failure']			= 'There was a problem saving the data_mahasiswa: ';
+$lang['data_mahasiswa_delete_success']			= 'record(s) successfully deleted.';
+$lang['data_mahasiswa_delete_failure']			= 'We could not delete the record: ';
+$lang['data_mahasiswa_delete_error']			= 'You have not selected any records to delete.';
+$lang['data_mahasiswa_actions']			= 'Actions';
+$lang['data_mahasiswa_cancel']			= 'Cancel';
+$lang['data_mahasiswa_delete_record']			= 'Delete this Data Mahasiswa';
+$lang['data_mahasiswa_delete_confirm']			= 'Are you sure you want to delete this data_mahasiswa?';
+$lang['data_mahasiswa_edit_heading']			= 'Edit Data Mahasiswa';
+
+// Activities
+$lang['data_mahasiswa_act_create_record']			= 'Created record with ID';
+$lang['data_mahasiswa_act_edit_record']			= 'Updated record with ID';
+$lang['data_mahasiswa_act_delete_record']			= 'Deleted record with ID';

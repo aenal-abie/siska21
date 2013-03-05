@@ -1,0 +1,30 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$lang['data_dosen_manage']			= 'Manage Data Dosen';
+$lang['data_dosen_edit']				= 'Edit';
+$lang['data_dosen_true']				= 'True';
+$lang['data_dosen_false']				= 'False';
+$lang['data_dosen_create']			= 'Create';
+$lang['data_dosen_list']				= 'List';
+$lang['data_dosen_new']				= 'New';
+$lang['data_dosen_edit_text']			= 'Edit this to suit your needs';
+$lang['data_dosen_no_records']			= 'There aren\'t any data_dosen in the system.';
+$lang['data_dosen_create_new']			= 'Create a new Data Dosen.';
+$lang['data_dosen_create_success']			= 'Data Dosen successfully created.';
+$lang['data_dosen_create_failure']			= 'There was a problem creating the data_dosen: ';
+$lang['data_dosen_create_new_button']			= 'Create New Data Dosen';
+$lang['data_dosen_invalid_id']			= 'Invalid Data Dosen ID.';
+$lang['data_dosen_edit_success']			= 'Data Dosen successfully saved.';
+$lang['data_dosen_edit_failure']			= 'There was a problem saving the data_dosen: ';
+$lang['data_dosen_delete_success']			= 'record(s) successfully deleted.';
+$lang['data_dosen_delete_failure']			= 'We could not delete the record: ';
+$lang['data_dosen_delete_error']			= 'You have not selected any records to delete.';
+$lang['data_dosen_actions']			= 'Actions';
+$lang['data_dosen_cancel']			= 'Cancel';
+$lang['data_dosen_delete_record']			= 'Delete this Data Dosen';
+$lang['data_dosen_delete_confirm']			= 'Are you sure you want to delete this data_dosen?';
+$lang['data_dosen_edit_heading']			= 'Edit Data Dosen';
+
+// Activities
+$lang['data_dosen_act_create_record']			= 'Created record with ID';
+$lang['data_dosen_act_edit_record']			= 'Updated record with ID';
+$lang['data_dosen_act_delete_record']			= 'Deleted record with ID';
