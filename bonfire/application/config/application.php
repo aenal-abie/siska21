@@ -61,7 +61,7 @@ $config['site.backup_folder']	= 'archives/';
 	The icon displayed is chosen automatically from the
 	theme/images/context_context_name.png files.
 */
-$config['contexts'] = array('mahasiswa','manajemen','keuangan','jurusan','content','reports','settings','developer');
+$config['contexts'] = array('dosen','mahasiswa','manajemen','keuangan','jurusan','content','reports','settings','developer');
 
 
 //--------------------------------------------------------------------
