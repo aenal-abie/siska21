@@ -1579,3 +1579,312 @@ ERROR - 2013-03-05 06:31:33 --> Could not find the language line "bf_context_mah
 ERROR - 2013-03-05 06:31:33 --> Could not find the language line "bf_context_manajemen"
 ERROR - 2013-03-05 06:31:33 --> Could not find the language line "bf_context_keuangan"
 ERROR - 2013-03-05 06:31:33 --> Could not find the language line "bf_context_jurusan"
+<<<<<<< master
+=======
+ERROR - 2013-03-05 07:02:59 --> Severity: Warning  --> opendir(E:\xampp\htdocs\siska\/assets/cache/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: No such file or directory E:\xampp\htdocs\siska\bonfire\codeigniter\helpers\file_helper.php 126
+ERROR - 2013-03-05 07:02:59 --> Severity: Warning  --> fopen(E:\xampp\htdocs\siska\/assets/cache//index.html) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory E:\xampp\htdocs\siska\bonfire\codeigniter\helpers\file_helper.php 90
+ERROR - 2013-03-05 07:02:59 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:02:59 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:02:59 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:02:59 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:02:59 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:02:59 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:02:59 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:03:02 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:03:02 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:03:02 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:03:02 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:03:02 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:03:02 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:03:02 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:03:08 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:03:08 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:03:08 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:03:08 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:03:08 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:03:08 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:03:08 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:03:12 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:03:12 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:03:12 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:03:12 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:03:12 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:03:17 --> Severity: Notice  --> Undefined variable: kode E:\xampp\htdocs\siska\bonfire\modules\pembayaran\models\pembayaran_model.php 79
+ERROR - 2013-03-05 07:04:29 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:04:29 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:04:29 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:04:29 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:04:29 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:04:29 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:04:29 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:04:32 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:04:32 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:04:32 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:04:32 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:04:32 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:04:35 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:04:35 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:04:35 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:04:35 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:04:35 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:08:59 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:08:59 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:08:59 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:08:59 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:08:59 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:09:03 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:09:03 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:09:03 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:09:03 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:09:03 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:09:03 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:09:03 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:09:44 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:09:44 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:09:44 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:09:44 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:09:44 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:09:44 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:09:44 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:09:56 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:09:56 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:09:56 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:09:56 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:09:56 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:10:21 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:10:21 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:10:21 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:10:21 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:10:21 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:10:23 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:10:23 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:10:23 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:10:23 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:10:23 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:10:23 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:10:23 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:12:08 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:12:08 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:12:08 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:12:08 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:12:08 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:12:10 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:12:10 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:12:10 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:12:10 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:12:10 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:12:37 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:12:37 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:12:37 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:12:37 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:12:37 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:12:46 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:12:46 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:12:46 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:12:46 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:12:46 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:12:46 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:12:46 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:13:39 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:13:39 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:13:39 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:13:39 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:13:39 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 76
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:39 --> Severity: Notice  --> Undefined variable: jenis E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 75
+ERROR - 2013-03-05 07:13:49 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:13:49 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:13:49 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:13:49 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:13:49 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:13:49 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:13:49 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:14:16 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:14:16 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:14:16 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:14:16 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:14:16 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:14:16 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:14:16 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:14:19 --> 404 Page Not Found --> keuangan/cetak_nota
+ERROR - 2013-03-05 07:14:29 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:14:29 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:14:29 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:14:29 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:14:29 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:14:29 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:14:29 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:14:49 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:14:49 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:14:49 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:14:49 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:14:49 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:14:49 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:14:49 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:15:17 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:15:17 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:15:17 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:15:17 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:15:17 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:15:22 --> Severity: Notice  --> Undefined variable: kode E:\xampp\htdocs\siska\bonfire\modules\pembayaran\models\pembayaran_model.php 79
+ERROR - 2013-03-05 07:19:13 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:19:13 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:19:13 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:19:13 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:19:13 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:19:18 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:19:18 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:19:18 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:19:18 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:19:18 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:19:18 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:19:18 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:19:21 --> 404 Page Not Found --> keuangan/cetak_nota
+ERROR - 2013-03-05 07:21:59 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:21:59 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:21:59 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:21:59 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:21:59 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:21:59 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:21:59 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:22:02 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:22:02 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:22:02 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:22:02 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:22:02 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:22:02 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:22:02 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:22:04 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:22:04 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:22:04 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:22:04 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:22:04 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:23:33 --> 404 Page Not Found --> 
+ERROR - 2013-03-05 07:23:36 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:23:36 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:23:36 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:23:36 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:23:36 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:23:38 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:23:38 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:23:38 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:23:38 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:23:38 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:23:40 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:23:40 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:23:40 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:23:40 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:23:40 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:33:38 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:33:38 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:33:38 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:33:39 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:33:39 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:33:42 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:33:42 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:33:42 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:33:42 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:33:42 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:33:44 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:33:44 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:33:44 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:33:44 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:33:44 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:33:44 --> 404 Page Not Found --> 
+ERROR - 2013-03-05 07:33:46 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:33:46 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:33:46 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:33:46 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:33:46 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:33:46 --> 404 Page Not Found --> 
+ERROR - 2013-03-05 07:33:52 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:33:52 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:33:52 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:33:52 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:33:52 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:33:54 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:33:54 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:33:54 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:33:54 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:33:54 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:33:55 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:33:55 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:33:55 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:33:55 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:33:55 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:33:57 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:33:57 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:33:57 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:33:57 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:33:57 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:33:57 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:33:57 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:34:00 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:34:00 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:34:00 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:34:00 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:34:00 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:34:04 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:34:04 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:34:04 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:34:04 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:34:04 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:34:04 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:34:04 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:34:10 --> 404 Page Not Found --> keuangan/cetak_nota
+ERROR - 2013-03-05 07:34:14 --> 404 Page Not Found --> keuangan/cetak_nota
+ERROR - 2013-03-05 07:34:57 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:34:57 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:34:57 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:34:57 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:34:57 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:35:03 --> Severity: Notice  --> Undefined variable: kode E:\xampp\htdocs\siska\bonfire\modules\pembayaran\models\pembayaran_model.php 79
+>>>>>>> local
+ERROR - 2013-03-05 07:38:56 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:38:56 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:38:56 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:38:56 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:38:56 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:38:56 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:38:56 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:39:00 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:39:00 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:39:00 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:39:00 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:39:00 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:39:02 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:39:02 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:39:02 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:39:02 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:39:02 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:39:02 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:39:02 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:39:12 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:39:12 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:39:12 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:39:12 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:39:12 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:39:12 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:39:12 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
+ERROR - 2013-03-05 07:39:21 --> Could not find the language line "bf_context_dosen"
+ERROR - 2013-03-05 07:39:21 --> Could not find the language line "bf_context_mahasiswa"
+ERROR - 2013-03-05 07:39:21 --> Could not find the language line "bf_context_manajemen"
+ERROR - 2013-03-05 07:39:21 --> Could not find the language line "bf_context_keuangan"
+ERROR - 2013-03-05 07:39:21 --> Could not find the language line "bf_context_jurusan"
+ERROR - 2013-03-05 07:39:21 --> Severity: Notice  --> Undefined variable: nim E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 14
+ERROR - 2013-03-05 07:39:21 --> Severity: Notice  --> Undefined variable: nama_mahasiswa E:\xampp\htdocs\siska\bonfire\modules\pembayaran\views\keuangan\index.php 15
