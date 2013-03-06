@@ -52,7 +52,7 @@ class penjadwalan extends Admin_Controller {
 			}
 		}
 
-		$records = $this->data_penjadwalan_model->find_all();
+		$records = $this->data_penjadwalan_model->get_data_penjadwalan();
 
 		Template::set('records', $records);
 		Template::set('toolbar_title', 'Manage Data Penjadwalan');

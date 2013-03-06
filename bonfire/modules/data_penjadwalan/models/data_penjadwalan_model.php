@@ -14,6 +14,28 @@ class Data_penjadwalan_model extends BF_Model {
     protected $created_by_field = 'kode_pengguna_add';
     protected $modified_by_field = 'kode_pengguna_edit';
     
+    
+    function get_data_penjadwalan()
+    {
+        $sql ="SELECT
+            penjadwalan.*,
+            matakuliah.nama_matakuliah,
+            matakuliah.kode_matakuliah,
+            matakuliah.sks_teori,
+            matakuliah.sks_praktek,
+            matakuliah.sks_praktikum,
+            dosen.nama_dosen,
+            ruang.nama_ruang
+            FROM
+            penjadwalan
+            INNER JOIN matakuliah ON penjadwalan.kode_matakuliah = matakuliah.kode_matakuliah
+            INNER JOIN dosen ON penjadwalan.kode_dosen = dosen.kode_dosen
+            INNER JOIN ruang ON penjadwalan.kode_ruang = ruang.kode_ruang";
+        $data = $this->db->query($sql);
+        return $data->result();
+
+    }
+    
     function get_tahun_akademik()
     {
         $this->table='tahun_akademik';

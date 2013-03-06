@@ -41,14 +41,14 @@
 					<?php endif;?>
 					
 				<?php if ($this->auth->has_permission('Data_Penjadwalan.Penjadwalan.Edit')) : ?>
-				<td><?php echo anchor(SITE_AREA .'/penjadwalan/data_penjadwalan/edit/'. $record->kode_penjadwalan, '<i class="icon-pencil"></i>'  ); echo "&nbsp;&nbsp;" . $record->kode_tahun_akademik ?></td>
+				<td><?php echo anchor(SITE_AREA .'/penjadwalan/data_penjadwalan/edit/'. $record->kode_penjadwalan, '<i class="icon-edit"></i>'  ); echo "&nbsp;&nbsp;" . $record->kode_tahun_akademik ?></td>
 				<?php else: ?>
 				<td><?php echo $record->kode_tahun_akademik ?></td>
 				<?php endif; ?>
 			
-				<td><?php echo $record->kode_matakuliah?></td>
-				<td><?php echo $record->kode_dosen?></td>
-				<td><?php echo $record->kode_ruang?></td>
+				<td><?php echo $record->kode_matakuliah ." ".$record->nama_matakuliah ?></td>
+				<td><?php echo $record->nama_dosen?></td>
+				<td><?php echo $record->nama_ruang?></td>
 				<td><?php echo $record->kelompok?></td>
 				<td><?php echo $record->jam_mulai?></td>
 				<td><?php echo $record->jam_berakhir?></td>

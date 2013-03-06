@@ -46,18 +46,18 @@ $id = isset($data_penjadwalan['kode_penjadwalan']) ? $data_penjadwalan['kode_pen
         <div class="control-group <?php echo form_error('data_penjadwalan_kode_matakuliah') ? 'error' : ''; ?>">
             <?php echo form_label('Kode Matakuliah'. lang('bf_form_label_required'), 'data_penjadwalan_kode_matakuliah', array('class' => "control-label") ); ?>
             <div class='controls'>
-        <input id="data_penjadwalan_kode_matakuliah" type="text" name="data_penjadwalan_kode_matakuliah" maxlength="10" value="<?php echo set_value('data_penjadwalan_kode_matakuliah', isset($data_penjadwalan['kode_matakuliah']) ? $data_penjadwalan['kode_matakuliah'] : ''); ?>"  />
-        <input class="span5" disabled="" id="data_penjadwalan_nama_matakuliah" type="text" name="data_penjadwalan_nama_matakuliah" maxlength="10" value=""  />
+        <input id="data_penjadwalan_kode_matakuliah" type="text" name="data_penjadwalan_kode_matakuliah" value="<?php echo set_value('data_penjadwalan_kode_matakuliah', isset($data_penjadwalan['kode_matakuliah']) ? $data_penjadwalan['kode_matakuliah'] : ''); ?>"  />
+        <input class="span5" disabled="" id="data_penjadwalan_nama_matakuliah"  type="text" name="data_penjadwalan_nama_matakuliah"  value=""  />
         <span class="help-inline"><?php echo form_error('data_penjadwalan_kode_matakuliah'); ?></span>
         </div>
 
 
         </div>
         <div class="control-group <?php echo form_error('data_penjadwalan_kode_dosen') ? 'error' : ''; ?>">
-            <?php echo form_label('Kode Dosen'. lang('bf_form_label_required'), 'data_penjadwalan_kode_dosen', array('class' => "control-label") ); ?>
+            <?php echo form_label('Nama Dosen'. lang('bf_form_label_required'), 'data_penjadwalan_kode_dosen', array('class' => "control-label") ); ?>
             <div class='controls'>
         <input name="data_penjadwalan_kode_dosen" type="hidden" id="data_penjadwalan_kode_dosen" value="<?php echo set_value('data_penjadwalan_kode_dosen', isset($data_penjadwalan['kode_dosen']) ? $data_penjadwalan['kode_dosen'] : ''); ?>" />
-        <input id="data_penjadwalan_nama_dosen" type="text" name="data_penjadwalan_nama_dosen" maxlength="2" value="<?php echo set_value('data_penjadwalan_kode_dosen'); ?>"   />
+        <input id="data_penjadwalan_nama_dosen" type="text" name="data_penjadwalan_nama_dosen"  value="<?php echo set_value('data_penjadwalan_kode_dosen'); ?>"   />
         <span class="help-inline"><?php echo form_error('data_penjadwalan_kode_dosen'); ?></span>
         </div>
 
@@ -71,7 +71,7 @@ $id = isset($data_penjadwalan['kode_penjadwalan']) ? $data_penjadwalan['kode_pen
                 '' => 'Data Ruangan Kosong',
 ); ?>
 
-        <?php echo form_dropdown('data_penjadwalan_kode_ruang', $option_ruang, set_value('data_penjadwalan_kode_ruang', isset($data_penjadwalan['data_penjadwalan_kode_ruang']) ? $data_penjadwalan['data_penjadwalan_kode_ruang'] : ''), 'Kode Ruang'. lang('bf_form_label_required'),'id="cz"')?>        
+        <?php echo form_dropdown('data_penjadwalan_kode_ruang', $option_ruang, set_value('data_penjadwalan_kode_ruang', isset($data_penjadwalan['data_penjadwalan_kode_ruang']) ? $data_penjadwalan['data_penjadwalan_kode_ruang'] : ''), 'Kode Ruang'. lang('bf_form_label_required'),'class="chzn-select" data-placeholder="Pilih Ruang"')?>        
         <div class="control-group <?php echo form_error('data_penjadwalan_kelompok') ? 'error' : ''; ?>">
             <?php echo form_label('Kelompok'. lang('bf_form_label_required'), 'data_penjadwalan_kelompok', array('class' => "control-label") ); ?>
             <div class='controls'>
@@ -89,7 +89,7 @@ $id = isset($data_penjadwalan['kode_penjadwalan']) ? $data_penjadwalan['kode_pen
                 2 => 2,
 ); ?>
 
-        <?php echo form_dropdown('data_penjadwalan_jam_mulai', $options, set_value('data_penjadwalan_jam_mulai', isset($data_penjadwalan['data_penjadwalan_jam_mulai']) ? $data_penjadwalan['data_penjadwalan_jam_mulai'] : ''), 'Jam Mulai'. lang('bf_form_label_required'))?>
+        <?php echo form_dropdown('data_penjadwalan_jam_mulai', $options, set_value('data_penjadwalan_jam_mulai', isset($data_penjadwalan['data_penjadwalan_jam_mulai']) ? $data_penjadwalan['data_penjadwalan_jam_mulai'] : ''), 'Jam Mulai'. lang('bf_form_label_required'),'class="chzn-select" data-placeholder="Pilih Jam Mullai"')?>
 
         <?php // Change the values in this array to populate your dropdown as required ?>
 
@@ -97,7 +97,7 @@ $id = isset($data_penjadwalan['kode_penjadwalan']) ? $data_penjadwalan['kode_pen
                 2 => 2,
 ); ?>
 
-        <?php echo form_dropdown('data_penjadwalan_jam_berakhir', $options, set_value('data_penjadwalan_jam_berakhir', isset($data_penjadwalan['data_penjadwalan_jam_berakhir']) ? $data_penjadwalan['data_penjadwalan_jam_berakhir'] : ''), 'Jam Berakhir'. lang('bf_form_label_required'))?>
+        <?php echo form_dropdown('data_penjadwalan_jam_berakhir', $options, set_value('data_penjadwalan_jam_berakhir', isset($data_penjadwalan['data_penjadwalan_jam_berakhir']) ? $data_penjadwalan['data_penjadwalan_jam_berakhir'] : ''), 'Jam Berakhir'. lang('bf_form_label_required'),'class="chzn-select" data-placeholder="Pilih Jam Berakhir"')?>
 
         <?php // Change the values in this array to populate your dropdown as required ?>
 
@@ -106,7 +106,7 @@ $id = isset($data_penjadwalan['kode_penjadwalan']) ? $data_penjadwalan['kode_pen
                 'K' => 'KAS (Kuliah Antar Semester)',
 ); ?>
 
-        <?php echo form_dropdown('data_penjadwalan_status_perkuliahan', $options, set_value('data_penjadwalan_status_perkuliahan', isset($data_penjadwalan['data_penjadwalan_status_perkuliahan']) ? $data_penjadwalan['data_penjadwalan_status_perkuliahan'] : ''), 'Status Perkuliahan'. lang('bf_form_label_required'))?>
+        <?php echo form_dropdown('data_penjadwalan_status_perkuliahan', $options, set_value('data_penjadwalan_status_perkuliahan', isset($data_penjadwalan['data_penjadwalan_status_perkuliahan']) ? $data_penjadwalan['data_penjadwalan_status_perkuliahan'] : ''), 'Status Perkuliahan'. lang('bf_form_label_required'),'class="chzn-select" data-placeholder="Pilih Status Perkuliahan"')?>
 
 
         <div class="form-actions">
