@@ -1,6 +1,23 @@
 <script type="text/javascript">
-$('#batas_pembayaran').datepicker({ dateFormat: 'yy-mm-dd'});
-$('#tanggal_dispensasi').datepicker({ dateFormat: 'yy-mm-dd'});
+$( "#tanggal_dispensasi" ).datepicker({
+    changeMonth: true,
+    numberOfMonths: 1,
+    dateFormat: 'yy-mm-dd',
+    onClose: function( selectedDate ) {
+    $( "#batas_pembayaran" ).datepicker( "option", "minDate", selectedDate );
+}
+});
+
+$( "#batas_pembayaran" ).datepicker({
+    changeMonth: true,
+    numberOfMonths: 2,
+    maxDate: "1M-1D",
+    dateFormat: 'yy-mm-dd',
+    onClose: function( selectedDate ) {
+        $( "#tanggal_dispensasi" ).datepicker( "option", "maxDate", selectedDate );
+    }
+});
+
 $(this).ready( function() {
     $('#dispensasi').hide();
     $('#dispensasi_show').change(function(){
@@ -9,9 +26,7 @@ $(this).ready( function() {
     })
     $('#dispensasi_hide').change(function(){
         $('#dispensasi').hide();
-            
-    })
-    
+    }
 })
 </script>
 <table class="table table-striped  ">
