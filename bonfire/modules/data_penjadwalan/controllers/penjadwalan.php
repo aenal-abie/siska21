@@ -87,6 +87,31 @@ class penjadwalan extends Admin_Controller {
 				Template::set_message(lang('data_penjadwalan_create_failure') . $this->data_penjadwalan_model->error, 'error');
 			}
 		}
+        
+        //pilih tahun akademik
+        $data_tahun_akademik=$this->data_penjadwalan_model->get_tahun_akademik();
+        if(!empty($data_tahun_akademik)){
+            $option_ta['']='';
+            foreach ($data_tahun_akademik as $row)
+            {
+                $option_ta[$row->kode_tahun_akademik]=($row->semester == 1) ? "$row->tahun_akademik Semester Ganjil" :" $row->tahun_akademik Semester Genap";    
+            }
+            Template::set('option_ta', $option_ta);
+        } 
+        $this->load->library('siska');
+        Template::set('ta_aktif', $this->siska->get_kode_tahun_akademik());
+        
+        //pilih ruuang
+        $data_ruang=$this->data_penjadwalan_model->get_ruang();
+        if(!empty($data_ruang)){
+            $option_ruang['']='';
+            foreach ($data_ruang as $row)
+            {
+                $option_ruang[$row->kode_ruang]=$row->nama_ruang ;    
+            }
+            Template::set('option_ruang', $option_ruang);
+        } 
+        
 		Assets::add_module_js('data_penjadwalan', 'data_penjadwalan.js');
 
 		Template::set('toolbar_title', lang('data_penjadwalan_create') . ' Data Penjadwalan');
@@ -182,7 +207,8 @@ class penjadwalan extends Admin_Controller {
 		$this->form_validation->set_rules('data_penjadwalan_kode_tahun_akademik','Kode Tahun Akademik','required|max_length[2]');
 		$this->form_validation->set_rules('data_penjadwalan_kode_matakuliah','Kode Matakuliah','required|max_length[10]');
 		$this->form_validation->set_rules('data_penjadwalan_kode_dosen','Kode Dosen','required|max_length[2]');
-		$this->form_validation->set_rules('data_penjadwalan_kode_ruang','Kode Ruang','required|max_length[2]');
+		$this->form_validation->set_rules('data_penjadwalan_nama_dosen','Kode Dosen','required');
+        $this->form_validation->set_rules('data_penjadwalan_kode_ruang','Kode Ruang','required|max_length[2]');
 		$this->form_validation->set_rules('data_penjadwalan_kelompok','Kelompok','required|max_length[2]');
 		$this->form_validation->set_rules('data_penjadwalan_jam_mulai','Jam Mulai','required|max_length[2]');
 		$this->form_validation->set_rules('data_penjadwalan_jam_berakhir','Jam Berakhir','required|max_length[2]');
@@ -226,7 +252,69 @@ class penjadwalan extends Admin_Controller {
 	}
 
 	//--------------------------------------------------------------------
-
+    
+    
+    /**
+     *  membuat fungsi untuk mencari hasil look up pada view
+     */
+    public function lookup_mk()
+    {   
+        $this->auth->restrict('Data_Penjadwalan.Penjadwalan.Create');
+		// process posted form data (the requested items like province)
+        $jenjang = $this->uri->segment(5);
+        $keyword = $this->input->get('term');
+        $data['response'] = 'false'; //Set default response
+        $query = $this->data_penjadwalan_model->lookup_mk($jenjang,$keyword); //Search DB
+        if( ! empty($query) )
+        {
+            $data['response'] = 'true'; //Set response
+            $data['message'] = array(); //Create array
+            foreach( $query as $row )
+            {
+                $data['message'][] = array( 
+                                        'label'=>$row->kode_matakuliah." : ".$row->nama_matakuliah,
+                                        'value' => $row->kode_matakuliah,
+										'nama_matakuliah' => $row->nama_matakuliah,
+                                        ''
+                                     ); 
+            }
+        }
+            
+        if('IS_AJAX')
+        {
+            echo json_encode($data); //echo json string if ajax request
+            
+        }
+	}
+    
+     public function lookup_dosen()
+    {   
+        $this->auth->restrict('Data_Penjadwalan.Penjadwalan.Create');
+		// process posted form data (the requested items like province)
+        $keyword = $this->input->get('term');
+        $data['response'] = 'false'; //Set default response
+        $query = $this->data_penjadwalan_model->lookup_dosen($keyword); //Search DB
+        if( ! empty($query) )
+        {
+            $data['response'] = 'true'; //Set response
+            $data['message'] = array(); //Create array
+            foreach( $query as $row )
+            {
+                $data['message'][] = array( 
+                                        'label'=>$row->kode_dosen." : ".$row->nama_dosen,
+                                        'value' => $row->nama_dosen,
+										'kode_dosen' => $row->kode_dosen,
+                                        ''
+                                     ); 
+            }
+        }
+            
+        if('IS_AJAX')
+        {
+            echo json_encode($data); //echo json string if ajax request
+            
+        }
+	}
 
 
 }

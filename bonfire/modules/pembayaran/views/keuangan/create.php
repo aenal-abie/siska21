@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="<?php echo css_path(); ?>jquery/jquery-ui-1.9.2.custom.min.css">
-<script src="<?php echo js_path(); ?>jquery-ui-1.9.2.custom.min.js"></script>
     <meta charset="UTF-8">        
     <style>
 		.ui-autocomplete { position: absolute; cursor: default; }	
@@ -35,3 +33,5 @@
 
 
 </div>
+<link rel="stylesheet" href="<?php echo css_path(); ?>jquery/jquery-ui-1.9.2.custom.min.css">
+<script src="<?php echo js_path(); ?>jquery-ui-1.9.2.custom.min.js"></script>
